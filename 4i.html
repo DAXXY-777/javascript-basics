@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
+  <style>
+    .ATC-button {
+      background-color: rgb(238, 241, 18);
+      color: rgb(27, 13, 13);
+      border: 1;
+    }
+    .BUY-button {
+      background-color: rgb(241, 152, 18);
+      color: rgb(27, 13, 13);
+      border: 1;
+    }
+  </style>
   <header>Adults Plain Cotton T-Shirt</header>
   <p>Price: $7.99</p>
-  <button onclick="alert('Added')">Add to Cart</button>
+  <button onclick="alert('Added')" class="ATC-button">Add to Cart</button>
   <button
     onclick="console.log('Loading...')
   alert('Purchased')"
+    class="BUY-button"
   >
     Buy Now
   </button>
